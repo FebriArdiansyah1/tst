@@ -7,21 +7,20 @@
 }
 
 /* Style untuk body dan container */
-body, html {
-  height: 100%;
-  width: 100%;
+body {
+  
   background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Arial, sans-serif;
+  
 }
 
 /* Background grid titik */
 .background {
   width: 100%;
   height: 100vh;
-  background-color: black; /* Warna latar belakang hitam */
+  background-color: black;
+  display: flex;
+  justify-items: center;
+  align-items: center;/* Warna latar belakang hitam */
   
   /* Pola titik dengan radial-gradient */
   background-image: 
